@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pizza Express</title>
+    <link rel="icon" type="image/x-icon" href="./img/pizza-icon.png" />
+    <link rel="stylesheet" href="fonts.css" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+  </head>
+  <body onload="render()">
+
+    <header>
+      <div class="headerName">
+        <img src="./img/pizza-icon.png" alt="" />
+        <h1>Pizza Express</h1>
+      </div>
+      <div class="headerinfo"><h2>Speisekarte</h2></div>
+      <div class="headerFllagAndIcon">
+        <img class="flag" src="./img/germanFlag.png" alt="" />
+        <img
+          class="burgerbutton"
+          src="./img/burgerIcon.png"
+          alt=""/>
+      </div>
+    </header>
+
+
+    <div class="maincontent">
+      <div class="left">
+        <section class="sectionMain">
+          <div class="sectionOne">
+            <img src="./img/pizzaHead.jpg" alt="" />
+          </div>
+          <figure class="sectionOnePizzaLogo">
+            <img src="./img/pizzalogo.png" alt="" />
+          </figure>
+          <div class="sectionOneHeartundInfo">
+            <h1>Pizza-Express</h1>
+            <div>
+              <img class="infoIMG" src="./img/info.png" alt="" /><img
+                onclick="changeImg()"
+                id="picture"
+                class="heartIMG"
+                src="./img/herz.png"
+                alt=""/>
+            </div>
+            <br />
+          </div>
+          <div class="sterneBewertung">
+            <img src="./img/stars.png" alt="" /> <a href="#">20 bewertungen</a>
+          </div>
+          <br />
+          <div class="lieferungsZeit">
+            <img src="./img/clock.png" alt="" />Lieferung in ca 10-55 min
+            <div class="dot"></div>
+            <img src="./img/bike.png" alt="" />kostenlos
+            <div class="dot"></div>
+            <img src="./img/bag.png" alt="" />Min. 300,00 € <br />
+          </div>
+          <span
+            >Getränke & Desserts sind vom Mindestbestellwert ausgenommen!</span>
+          <div class="baar"></div>
+        </section>
+
+        <div class="content" id="content"></div>
+      </div>
+      <div id="myDiv" class="shoppingCart">
+
+        <div class="basketname"><h1>Warenkorb</h1></div>
+        <div id="basket" class="shoppingCartLeer">
+          <img src="./img/bag.png" alt="" />
+          <h3>Fülle deinen Warenkorb</h3>
+          <span
+            >Füge einige leckere Gerichte aus der <br />
+            Speisekarte hinzu und bestelle dein Essen</span>
+        </div>
+      </div>
+    </div>
+
+    <div onclick="showMiniBasket()" class="logoWarenkorb">
+      <img id="basketPicture" onclick="changeMiniBasketIcon()" src="./img/logoWarenkorb.png" />
+    </div>
+
+    <footer>
+      <span>logos von :</span> <a href="https://logomakr.com/">logomakr.com</a>
+      <a href="#">datenschutz</a>
+      <a href="#">Impressum</a>
+      <h2>Follow us at</h2>
+      <div>
+        <a href="#"><img src="./img/fblogo.png" alt="" /></a
+        ><a href="#"><img src="./img/instalogo.png" alt="" /></a>
+        <a href="#"><img src="./img/twitterlogo.png" alt="" /></a>
+      </div>
+    </footer>
+  </body>
+</html>

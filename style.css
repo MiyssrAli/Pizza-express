@@ -1,0 +1,411 @@
+body {
+    margin: 0;
+  font-family: 'lato', sans-serif;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+header {
+    height: 100px;
+    color: white;
+    background-color: #FF8000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 2px 2px 6px rgb(0, 0, 0, 0.2);
+}
+
+header img {
+    height: 22px;
+}
+
+header img:hover {
+    cursor: pointer;
+}
+
+.headerName {
+    margin-left: 12px;
+    display: flex;
+    align-items: center;
+}
+
+.headerName img {
+    margin-right: 10px;
+    height: 70px;
+}
+
+.headerFllagAndIcon {
+    margin-right: 32px;
+}
+
+.flag {
+    width: 26px;
+    height: 23px;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.5);
+    margin-right: 28px;
+}
+
+.headerinfo {
+    margin-right: 110px;
+}
+
+.maincontent {
+    display: flex;
+
+}
+
+.shoppingCart {
+
+    width: 25%;
+    height: 100vh;
+    position: sticky;
+    top: 0;
+    box-shadow: -2px 1px 17px 5px rgba(199 199 199 / 53%);
+    transition: all 125ms ease-in-out
+}
+
+.shoppingCartLeer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 8px;
+}
+
+.shoppingCartLeer img {
+    height: 40px;
+}
+
+.basketname {
+    margin-bottom: 70px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.left {
+    width: 75%;
+}
+
+.sectionMain span {
+    margin-left: 100px;
+
+}
+
+.sectionOne img {
+
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+
+}
+
+.sectionOnePizzaLogo {
+    margin: 0;
+    padding: 12px;
+    position: absolute;
+    top: 309px;
+    left: 86px;
+}
+
+.sectionOnePizzaLogo img {
+    height: 100px;
+
+}
+
+.infoIMG:hover {
+    cursor: pointer;
+    height: 32px;
+}
+
+.heartIMG:hover {
+    cursor: pointer;
+    height: 32px;
+}
+
+.dot {
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background-color: black;
+}
+
+.sectionOneHeartundInfo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 100px;
+}
+
+.sectionOneHeartundInfo img {
+    height: 30px;
+    margin-right: 20px;
+}
+
+.sterneBewertung {
+    margin-left: 100px;
+
+}
+
+.sterneBewertung img:hover {
+    cursor: pointer;
+}
+
+.sterneBewertung img {
+    height: 20px;
+}
+
+.lieferungsZeit {
+    margin-left: 100px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.lieferungsZeit img {
+    height: 20px;
+}
+
+.baar {
+    height: 32px;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+.card {
+    position: relative;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 22px;
+    margin: 20px;
+    padding: 10px;
+    margin-left: 100px;
+}
+
+.card button {
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 50%;
+    border: white;
+    font-size: 22px;
+    margin: 20px;
+}
+
+.card button:hover {
+    cursor: pointer;
+    background-color: rgb(195, 196, 197)
+}
+
+.menuImage {
+
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menuImage img {
+    width: 100%;
+    height: 175px;
+    object-fit: cover;
+}
+
+.basketclass {
+    margin: 10px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    box-shadow: inset 0px -5px 5px -5px rgba(0, 0, 0, 0.2);
+}
+
+.plus {
+    cursor: pointer;
+    margin-left: 20px;
+    font-size: 32px;
+}
+
+.minus {
+    cursor: pointer;
+    font-size: 32px;
+    margin-left: 20px;
+}
+
+.gesamt {
+
+    margin-top: 20px;
+}
+
+.gesamtpreis {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.gesamtpreis button {
+    background-color: #ff8000;
+    color: white;
+    font-size: 28px;
+    border: 1px solid;
+}
+
+.gesamtpreis button:hover {
+    cursor: pointer;
+    background-color: #d4561c;
+ 
+}
+
+footer {
+    background-color: #ff80004f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+footer img {
+    height: 34px;
+}
+
+
+.logoWarenkorb {
+    position: sticky;
+    bottom: 22px;
+    display: flex;
+    justify-content: center;
+    display: none;
+}
+
+.logoWarenkorb img {
+    height: 42px;
+}
+
+.logoWarenkorb img:hover {
+    cursor: pointer;
+}
+
+
+.showCartInResponse {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: sticky;
+    top: 0;
+    bottom: 0;
+    height: 100vh;
+    background-color: white;
+    box-shadow: -2px 1px 17px 5px rgba(199 199 199 / 53%);
+    transition: all 125ms ease-in-out;
+}
+
+
+/* responsive style*/
+
+@media(max-width: 980px) {
+    .shoppingCart {
+        display: none;
+    }
+
+    .maincontent {
+        display: block
+    }
+
+    .left {
+        width: 100%;
+    }
+
+
+    .logoWarenkorb {
+        position: sticky;
+        bottom: 22px;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media(max-width: 980px) {
+
+    .card {
+        margin-left: 16px;
+    }
+
+}
+
+@media(max-width: 700px) {
+    .headerName h1 {
+        display: none;
+    }
+
+    .headerinfo {
+        margin-right: 0px;
+    }
+
+    .flag {
+        display: none;
+    }
+}
+
+@media(max-width: 650px) {
+
+    .sectionOnePizzaLogo {
+        left: 2px;
+    }
+
+    .sectionOneHeartundInfo {
+
+        margin-left: 17px;
+    }
+
+    .sterneBewertung {
+        margin-left: 17px;
+    }
+
+    .lieferungsZeit {
+        margin-left: 17px;
+    }
+
+    .sectionMain span {
+        margin-left: 31px;
+    display: flex;
+    }
+}
+
+@media(max-width: 500px) {
+    .lieferungsZeit {
+        margin-left: 0px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .sectionOneHeartundInfo img {
+        height: 30px;
+        margin-right: 4px;
+    }
+
+    footer {
+        flex-direction: column;
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+}
+
+@media(max-width: 300px) {
+
+    header img {
+        height: 0px;
+    }
+
+    .sectionOneHeartundInfo img {
+        height: 28px;
+    }
+}
